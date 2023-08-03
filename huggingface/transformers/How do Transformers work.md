@@ -46,10 +46,13 @@ the general strategy to achieve better performance is by increasing the modelsâ€
 ![from huggingface](https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter1/model_parameters.png)
 
 
-<iframe width="475" height="320" src="https://www.youtube.com/embed/ftWlj4FBHTg" title="The carbon footprint of Transformers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 
 ### Transfer Learning
+[![Transfer Learning]
+(https://img.youtube.com/vi/BqqfQnyjmgg/0.jpg)]
+(https://youtu.be/BqqfQnyjmgg)
 
    -  **Pretraining:** is the act of training a model from scratch: the weights are randomly initialized, and the training starts without any prior knowledge.
 ![pretraining](https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter1/pretraining.svg)
@@ -58,7 +61,7 @@ the general strategy to achieve better performance is by increasing the modelsâ€
 ![fine-tune](https://huggingface.co/datasets/huggingface-course/documentation-images/resolve/main/en/chapter1/finetuning.svg)
 
 ### General architecture
-<iframe width="475" height="320" src="https://www.youtube.com/embed/H39Z_720T5s" title="The Transformer architecture" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 
 The model is primarily composed of two blocks:
@@ -129,6 +132,9 @@ Both the Encoder and Decoder contain multiple layers, each consisting of a self-
 The Decoder also has an additional cross-attention layer that attends to the Encoder's output, allowing it to leverage information from the input sequence.
 - Keep in mind that the actual architecture is more complex, and the diagram above provides a high-level overview of the key components of the Transformer model. To get a more detailed visual representation, you can search for Transformer architecture diagrams online.
 
+[![The Transformer architecture]
+(https://img.youtube.com/vi/H39Z_720T5s/0.jpg)]
+(https://youtu.be/H39Z_720T5s)
 
 
 
